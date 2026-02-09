@@ -32,6 +32,14 @@ Escrow contract designed for a time-window-based distribution mechanism
 **Status:** In testing phase, not deployed, currently inactive.
 No mining, rewards, or token distribution is enabled in the current state of the network..
 
+## Faucet V2 – Mineryon (MYRN)
+- Network: Polygon Mainnet (137)
+- Faucet Address: 0x92c8ce0ceb377d9c85ced7eb0195329b9a68b6ee
+
+- Token: MYRN
+- Withdraw protected by EIP-712 signature
+- Replenishment via direct token transfer
+
 ## Token Information
 
 - **Network:** Polygon PoS  
