@@ -13,16 +13,24 @@ All contracts in this repository are deployed and verified on PolygonScan.
 
 ## Contracts
 
-- **Mineryon.sol**  
-  ERC-20 token contract with fixed total supply and deterministic transaction rules.
+### Mineryon.sol
+ERC-20 token contract with fixed total supply and deterministic transaction rules.
+No mint function, no upgradeable proxies, and no discretionary issuance.
 
-- **GenesisMarketVault.sol**  
-  Time-based distribution contract responsible for releasing a predefined portion
-  of the supply over a finite schedule.
+### GenesisMarketVault.sol
+Time-based release contract responsible for managing a predefined portion of the
+total MYRN token supply.
 
-- **MineryonMiningEscrow.sol**  
-  Escrow-based distribution contract.  
-  **Status:** Deployed and verified, but currently inactive.
+The contract is **active on Polygon PoS mainnet** and executes deterministic,
+time-based releases according to rules encoded directly in the contract, without
+administrative intervention.
+
+### MineryonMiningEscrow.sol
+Escrow contract designed for a time-window-based distribution mechanism
+(logical mining).
+
+**Status:** In testing phase, not deployed, currently inactive.
+No mining, rewards, or token distribution is enabled in the current state of the network..
 
 ## Token Information
 
