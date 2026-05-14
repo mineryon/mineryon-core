@@ -1,60 +1,290 @@
-# Mineryon (MYRN) – Core Contracts
+# MINERYON (MYRN)
 
-This repository contains the core smart contracts of the Mineryon (MYRN) token
-protocol deployed on the Polygon PoS network.
+## The Next Generation Mining & DeFi Ecosystem on Polygon
 
-## Overview
+Mineryon (MYRN) is a Polygon-based ecosystem combining mining infrastructure, DeFi mechanics, real-time blockchain integrations, NFT utilities, transparency systems, and community-driven tools.
 
-Mineryon (MYRN) is a fixed-supply ERC-20 token with on-chain enforced distribution
-and burn mechanisms. The protocol is designed to operate without minting,
-upgradeable proxies, or discretionary token issuance.
+The ecosystem was designed around transparency, deterministic smart contract behavior, fixed-supply tokenomics, and expandable blockchain infrastructure.
 
-All contracts in this repository are deployed and verified on PolygonScan.
+---
 
-## Contracts
+# Official Ecosystem
+
+## Main Website
+
+https://www.mineryon.com/
+
+## Mining Dashboard
+
+https://mine.mineryon.com/
+
+## NFT Platform
+
+https://nft.mineryon.com/
+
+## Play Platform
+
+https://play.mineryon.com/
+
+## Transparency Panel
+
+https://www.mineryon.com/transparencia.html
+
+## Security Information
+
+https://www.mineryon.com/seguranca.html
+
+## Market Information
+
+https://www.mineryon.com/mercado.html
+
+## Tokenomics
+
+https://www.mineryon.com/tokenomics.html
+
+---
+
+# Community & Socials
+
+## Telegram Alerts
+
+https://t.me/myron_alerts
+
+## Mining Bot
+
+https://t.me/myron_mineryon_bot
+
+## X / Twitter
+
+https://x.com/mineryon_myrn
+
+## GitHub
+
+https://github.com/mineryon/mineryon-core
+
+---
+
+# Overview
+
+MYRN is a fixed-supply ERC-20 token deployed on Polygon PoS.
+
+The ecosystem integrates:
+
+* Real-time mining systems
+* Automated token mechanics
+* Community mining tools
+* Telegram integrations
+* NFT infrastructure
+* Dashboard utilities
+* Transparency systems
+* Blockchain monitoring
+* DeFi ecosystem components
+
+The protocol focuses on long-term ecosystem sustainability and transparent infrastructure development.
+
+---
+
+# Ecosystem Components
+
+## Mining Infrastructure
+
+Mineryon includes mining-oriented ecosystem mechanics integrated into the platform infrastructure.
+
+Mining systems are designed to encourage:
+
+* ecosystem participation
+* long-term engagement
+* community interaction
+* token utility
+* on-chain activity
+
+Mining Dashboard:
+https://mine.mineryon.com/
+
+---
+
+## NFT Ecosystem
+
+The project includes NFT integrations and digital ecosystem expansion modules.
+
+NFT Platform:
+https://nft.mineryon.com/
+
+---
+
+## Play Platform
+
+Mineryon also includes gaming-oriented infrastructure and ecosystem interaction systems.
+
+Play Platform:
+https://play.mineryon.com/
+
+---
+
+## Transparency System
+
+The ecosystem includes public transparency tools and on-chain monitoring resources.
+
+Transparency Panel:
+https://www.mineryon.com/transparencia.html
+
+---
+
+## Security & Verification
+
+The project prioritizes transparency and deterministic smart contract behavior.
+
+Features include:
+
+* Verified smart contracts
+* Public blockchain activity
+* Open-source infrastructure
+* Fixed-supply tokenomics
+* Transparent on-chain mechanics
+
+Security Information:
+https://www.mineryon.com/seguranca.html
+
+---
+
+# Smart Contracts
+
+## MYRN Token Contract
+
+Network: Polygon PoS
+
+Contract Address:
+
+```text
+0xaa2DFd50d728816a2F566e18C785F2321A3AB6d1
+```
+
+PolygonScan:
+https://polygonscan.com/token/0xaa2DFd50d728816a2F566e18C785F2321A3AB6d1
+
+Verified Source Code:
+https://polygonscan.com/address/0xaa2DFd50d728816a2F566e18C785F2321A3AB6d1#code
+
+---
+
+## Core Contracts
 
 ### Mineryon.sol
-ERC-20 token contract with fixed total supply and deterministic transaction rules.
-No mint function, no upgradeable proxies, and no discretionary issuance.
+
+Core ERC-20 token contract.
 
 ### GenesisMarketVault.sol
-Time-based release contract responsible for managing a predefined portion of the
-total MYRN token supply.
 
-The contract is **active on Polygon PoS mainnet** and executes deterministic,
-time-based releases according to rules encoded directly in the contract, without
-administrative intervention.
+Time-based ecosystem distribution infrastructure.
 
 ### MineryonMiningEscrow.sol
-Escrow contract designed for a time-window-based distribution mechanism
-(logical mining).
 
-**Status:** In testing phase, not deployed, currently inactive.
-No mining, rewards, or token distribution is enabled in the current state of the network..
+Mining and ecosystem expansion infrastructure module.
 
-## Faucet V2 – Mineryon (MYRN)
-- Network: Polygon Mainnet (137)
-- Faucet Address: 0x92c8ce0ceb377d9c85ced7eb0195329b9a68b6ee
+---
 
-- Token: MYRN
-- Withdraw protected by EIP-712 signature
-- Replenishment via direct token transfer
+# Token Information
 
-## Token Information
+| Property          | Value        |
+| ----------------- | ------------ |
+| Name              | Mineryon     |
+| Symbol            | MYRN         |
+| Network           | Polygon PoS  |
+| Standard          | ERC-20       |
+| Supply Model      | Fixed Supply |
+| Mint Function     | Disabled     |
+| Upgradeable Proxy | No           |
+| Contract Status   | Verified     |
 
-- **Network:** Polygon PoS  
-- **Standard:** ERC-20  
-- **Minting:** Disabled (no mint function exists)  
-- **Upgradeability:** None  
+---
 
-## Documentation
+# Market & Liquidity
 
-- Technical Whitepaper:  
-  https://mineryon.com/docs/Mineryon_MyRN_Technical_Whitepaper_v1_EN_PT.pdf
+## GeckoTerminal
 
-- On-chain Transparency Panel:  
-  https://mineryon.com/transparency.html
+https://www.geckoterminal.com/polygon_pos/pools/0x7ff547c73f75fa36f980371b33827819d8851033
 
-## License
+## CoinMarketCap DexScan
+
+https://dex.coinmarketcap.com/token/polygon/0xaa2dfd50d728816a2f566e18c785f2321a3ab6d1/
+
+---
+
+# Ecosystem Vision
+
+Mineryon aims to build a long-term Polygon ecosystem combining:
+
+* mining infrastructure
+* DeFi utilities
+* NFT integrations
+* blockchain gaming
+* community tools
+* transparent tokenomics
+* real-time blockchain integrations
+
+The ecosystem is focused on sustainable expansion and real blockchain utility.
+
+---
+
+# Development Status
+
+The project is under active development.
+
+Current development areas include:
+
+* mining infrastructure
+* dashboard systems
+* ecosystem analytics
+* NFT integrations
+* blockchain gaming systems
+* Telegram tools
+* UI/UX improvements
+* transparency infrastructure
+* on-chain monitoring
+
+---
+
+# Roadmap
+
+## Phase 1
+
+* Polygon deployment
+* Smart contract verification
+* Initial liquidity creation
+* Website launch
+
+## Phase 2
+
+* Mining dashboard
+* Telegram integrations
+* Transparency infrastructure
+* Token ecosystem expansion
+
+## Phase 3
+
+* NFT ecosystem
+* Play platform
+* Advanced mining systems
+* Expanded community infrastructure
+
+## Phase 4
+
+* Ecosystem scaling
+* Analytics expansion
+* Enhanced blockchain integrations
+* Advanced ecosystem utilities
+
+---
+
+# Documentation
+
+## Technical Whitepaper
+
+https://mineryon.com/docs/Mineryon_MyRN_Technical_Whitepaper_v1_EN_PT.pdf
+
+---
+
+# License
 
 MIT License
+
